@@ -1,0 +1,187 @@
+Error 00044. 0x300010 (Thread 0xFFF8C4CB):
+Resource leak: The object (0x19ACE34) was never deleted
+
+The object (0x019ACE34) [size: 80 bytes] was created with new
+Call Tree:
+   0x00402C13(=MICROLUZ.EXE:0x01:001C13) C:\Ideen\MicroLUZ\source\AstrClas.cpp#56
+   0x00403093(=MICROLUZ.EXE:0x01:002093) C:\Ideen\MicroLUZ\source\AstrClas.cpp#119
+   0x004031B6(=MICROLUZ.EXE:0x01:0021B6) C:\Ideen\MicroLUZ\source\AstrClas.cpp#136
+   0x00403298(=MICROLUZ.EXE:0x01:002298) C:\Ideen\MicroLUZ\source\AstrClas.cpp#150
+   0x0040732F(=MICROLUZ.EXE:0x01:00632F) C:\Ideen\MicroLUZ\source\MiddTime.cpp#45
+   0x004071CD(=MICROLUZ.EXE:0x01:0061CD) C:\Ideen\MicroLUZ\source\MiddTime.cpp#31
+
+------------------------------------------
+Error 00045. 0x300010 (Thread 0xFFF8C4CB):
+Resource leak: The object (0x19AAD6C) was never deleted
+
+The object (0x019AAD6C) [size: 80 bytes] was created with new
+Call Tree:
+   0x00402C13(=MICROLUZ.EXE:0x01:001C13) C:\Ideen\MicroLUZ\source\AstrClas.cpp#56
+   0x00402E16(=MICROLUZ.EXE:0x01:001E16) C:\Ideen\MicroLUZ\source\AstrClas.cpp#71
+   0x004030B3(=MICROLUZ.EXE:0x01:0020B3) C:\Ideen\MicroLUZ\source\AstrClas.cpp#119
+   0x004031B6(=MICROLUZ.EXE:0x01:0021B6) C:\Ideen\MicroLUZ\source\AstrClas.cpp#136
+   0x00403298(=MICROLUZ.EXE:0x01:002298) C:\Ideen\MicroLUZ\source\AstrClas.cpp#150
+   0x0040732F(=MICROLUZ.EXE:0x01:00632F) C:\Ideen\MicroLUZ\source\MiddTime.cpp#45
+
+------------------------------------------
+Error 00046. 0x300010 (Thread 0xFFF8C4CB):
+Resource leak: The object (0x19AAD18) was never deleted
+
+The object (0x019AAD18) [size: 80 bytes] was created with new
+Call Tree:
+   0x00402BD7(=MICROLUZ.EXE:0x01:001BD7) C:\Ideen\MicroLUZ\source\AstrClas.cpp#55
+   0x00402E16(=MICROLUZ.EXE:0x01:001E16) C:\Ideen\MicroLUZ\source\AstrClas.cpp#71
+   0x004030B3(=MICROLUZ.EXE:0x01:0020B3) C:\Ideen\MicroLUZ\source\AstrClas.cpp#119
+   0x004031B6(=MICROLUZ.EXE:0x01:0021B6) C:\Ideen\MicroLUZ\source\AstrClas.cpp#136
+   0x00403298(=MICROLUZ.EXE:0x01:002298) C:\Ideen\MicroLUZ\source\AstrClas.cpp#150
+   0x0040732F(=MICROLUZ.EXE:0x01:00632F) C:\Ideen\MicroLUZ\source\MiddTime.cpp#45
+
+------------------------------------------
+Error 00047. 0x300010 (Thread 0xFFF8C4CB):
+Resource leak: The object (0x19B2A44) was never deleted
+
+The object (0x019B2A44) [size: 80 bytes] was created with new
+Call Tree:
+   0x00402B2F(=MICROLUZ.EXE:0x01:001B2F) C:\Ideen\MicroLUZ\source\AstrClas.cpp#40
+   0x00403271(=MICROLUZ.EXE:0x01:002271) C:\Ideen\MicroLUZ\source\AstrClas.cpp#148
+   0x0040732F(=MICROLUZ.EXE:0x01:00632F) C:\Ideen\MicroLUZ\source\MiddTime.cpp#45
+   0x004071CD(=MICROLUZ.EXE:0x01:0061CD) C:\Ideen\MicroLUZ\source\MiddTime.cpp#31
+   0x40055A25(=VCL50.BPL:0x01:054A25)
+   0x40054117(=VCL50.BPL:0x01:053117)
+
+------------------------------------------
+Error 00048. 0x300010 (Thread 0xFFF8C4CB):
+Resource leak: The object (0x19AAA18) was never deleted
+
+The object (0x019AAA18) [size: 80 bytes] was created with new
+Call Tree:
+   0x00402A63(=MICROLUZ.EXE:0x01:001A63) C:\Ideen\MicroLUZ\source\AstrClas.cpp#32
+   0x00403268(=MICROLUZ.EXE:0x01:002268) C:\Ideen\MicroLUZ\source\AstrClas.cpp#148
+   0x0040732F(=MICROLUZ.EXE:0x01:00632F) C:\Ideen\MicroLUZ\source\MiddTime.cpp#45
+   0x004071CD(=MICROLUZ.EXE:0x01:0061CD) C:\Ideen\MicroLUZ\source\MiddTime.cpp#31
+   0x40055A25(=VCL50.BPL:0x01:054A25)
+   0x40054117(=VCL50.BPL:0x01:053117)
+
+------------------------------------------
+Error 00049. 0x300010 (Thread 0xFFF8C4CB):
+Resource leak: The object (0x19AE698) was never deleted
+
+The object (0x019AE698) [size: 80 bytes] was created with new
+Call Tree:
+   0x0040299B(=MICROLUZ.EXE:0x01:00199B) C:\Ideen\MicroLUZ\source\AstrClas.cpp#25
+   0x004032A3(=MICROLUZ.EXE:0x01:0022A3) C:\Ideen\MicroLUZ\source\AstrClas.cpp#150
+   0x0040732F(=MICROLUZ.EXE:0x01:00632F) C:\Ideen\MicroLUZ\source\MiddTime.cpp#45
+   0x004071CD(=MICROLUZ.EXE:0x01:0061CD) C:\Ideen\MicroLUZ\source\MiddTime.cpp#31
+   0x40055A25(=VCL50.BPL:0x01:054A25)
+   0x40054117(=VCL50.BPL:0x01:053117)
+
+------------------------------------------
+Error 00050. 0x300010 (Thread 0xFFF8C4CB):
+Resource leak: The object (0x19ABAA8) was never deleted
+
+The object (0x019ABAA8) [size: 80 bytes] was created with new
+Call Tree:
+   0x00402BD7(=MICROLUZ.EXE:0x01:001BD7) C:\Ideen\MicroLUZ\source\AstrClas.cpp#55
+   0x00403093(=MICROLUZ.EXE:0x01:002093) C:\Ideen\MicroLUZ\source\AstrClas.cpp#119
+   0x004031B6(=MICROLUZ.EXE:0x01:0021B6) C:\Ideen\MicroLUZ\source\AstrClas.cpp#136
+   0x00403298(=MICROLUZ.EXE:0x01:002298) C:\Ideen\MicroLUZ\source\AstrClas.cpp#150
+   0x0040732F(=MICROLUZ.EXE:0x01:00632F) C:\Ideen\MicroLUZ\source\MiddTime.cpp#45
+   0x004071CD(=MICROLUZ.EXE:0x01:0061CD) C:\Ideen\MicroLUZ\source\MiddTime.cpp#31
+
+------------------------------------------
+Error 00051. 0x300010 (Thread 0xFFF8C4CB):
+Resource leak: The object (0x19AD294) was never deleted
+
+The object (0x019AD294) [size: 80 bytes] was created with new
+Call Tree:
+   0x0040299B(=MICROLUZ.EXE:0x01:00199B) C:\Ideen\MicroLUZ\source\AstrClas.cpp#25
+   0x0040327E(=MICROLUZ.EXE:0x01:00227E) C:\Ideen\MicroLUZ\source\AstrClas.cpp#148
+   0x0040732F(=MICROLUZ.EXE:0x01:00632F) C:\Ideen\MicroLUZ\source\MiddTime.cpp#45
+   0x004071CD(=MICROLUZ.EXE:0x01:0061CD) C:\Ideen\MicroLUZ\source\MiddTime.cpp#31
+   0x40055A25(=VCL50.BPL:0x01:054A25)
+   0x40054117(=VCL50.BPL:0x01:053117)
+
+------------------------------------------
+Error 00052. 0x300010 (Thread 0xFFF8C4CB):
+Resource leak: The object (0x19B1068) was never deleted
+
+The object (0x019B1068) [size: 80 bytes] was created with new
+Call Tree:
+   0x0040429A(=MICROLUZ.EXE:0x01:00329A) C:\Ideen\MicroLUZ\source\AngValTs.cpp#16
+   0x4005ABFC(=VCL50.BPL:0x01:059BFC)
+   0x00401645(=MICROLUZ.EXE:0x01:000645) C:\Ideen\MicroLUZ\MicroLUZ.cpp#18
+   0x3257DBEF(=CC3250MT.DLL:0x01:07CBEF)
+
+------------------------------------------
+Error 00053. 0x300010 (Thread 0xFFF8C4CB):
+Resource leak: The object (0x19B10BC) was never deleted
+
+The object (0x019B10BC) [size: 80 bytes] was created with new
+Call Tree:
+   0x004042E9(=MICROLUZ.EXE:0x01:0032E9) C:\Ideen\MicroLUZ\source\AngValTs.cpp#17
+   0x4005ABFC(=VCL50.BPL:0x01:059BFC)
+   0x00401645(=MICROLUZ.EXE:0x01:000645) C:\Ideen\MicroLUZ\MicroLUZ.cpp#18
+   0x3257DBEF(=CC3250MT.DLL:0x01:07CBEF)
+
+------------------------------------------
+Functions called:
+ delete (35 times)
+ cos (4 times)
+ sin (5 times)
+ SysReallocMem (28 times)
+ SysFreeMem (2893 times)
+ SysGetMem (2893 times)
+ realloc (1 times)
+ memcpy (1 times)
+ delete[] (2 times)
+ free (24 times)
+ new[] (14 times)
+ new (50 times)
+ calloc (4 times)
+ malloc (19 times)
+Resource types used:
+ object array (14 allocs, 13 max)
+ object (50 allocs, 38 max)
+ memory block (2917 allocs, 813 max)
+Modules used:
+ 00400000 02/06/2001 16:29:28 C:\IDEEN\MICROLUZ\MICROLUZ.EXE
+ 01F20000 09/20/1999 18:16:36 C:\PROGRAM FILES\WHEEL MOUSE\3DMAIN.EXE
+ 0CD00000 01/31/2000 05:00:00 C:\PROGRAM FILES\BORLAND\CBUILDER5\BIN\CG32.DLL
+ 10000000 09/20/1999 18:14:02 C:\WINDOWS\SYSTEM\3DHOOK32.DLL
+ 32500000 01/31/2000 05:00:00 C:\PROGRAM
+ FILES\BORLAND\CBUILDER5\BIN\CC3250MT.DLL
+ 40000000 01/24/2000 05:01:00 C:\WINDOWS\SYSTEM\VCL50.BPL
+ 41000000 01/31/2000 05:00:00 C:\PROGRAM
+ FILES\BORLAND\CBUILDER5\BIN\BORLNDMM.DLL
+ 70BD0000 06/08/2000 17:00:00 C:\WINDOWS\SYSTEM\SHLWAPI.DLL
+ 73140000 06/08/2000 17:00:00 C:\WINDOWS\SYSTEM\WSOCK32.DLL
+ 73170000 06/08/2000 17:00:00 C:\WINDOWS\SYSTEM\WS2HELP.DLL
+ 73180000 06/08/2000 17:00:00 C:\WINDOWS\SYSTEM\WS2_32.DLL
+ 77BA0000 06/08/2000 17:00:00 C:\WINDOWS\SYSTEM\MSWSOCK.DLL
+ 78000000 06/08/2000 17:00:00 C:\WINDOWS\SYSTEM\MSVCRT.DLL
+ 7B6F0000 06/08/2000 17:00:00 C:\WINDOWS\SYSTEM\INDICDLL.DLL
+ 7F130000 06/08/2000 17:00:00 C:\WINDOWS\SYSTEM\MPR.DLL
+ 7F740000 06/08/2000 17:00:00 C:\WINDOWS\SYSTEM\NETBIOS.DLL
+ 7F770000 06/08/2000 17:00:00 C:\WINDOWS\SYSTEM\SECUR32.DLL
+ 7F790000 06/08/2000 17:00:00 C:\WINDOWS\SYSTEM\RASAPI32.DLL
+ 7F860000 06/08/2000 17:00:00 C:\WINDOWS\SYSTEM\SVRAPI.DLL
+ 7F870000 06/08/2000 17:00:00 C:\WINDOWS\SYSTEM\TAPI32.DLL
+ 7F8A0000 06/08/2000 17:00:00 C:\WINDOWS\SYSTEM\NETAPI32.DLL
+ 7FA30000 06/08/2000 17:00:00 C:\WINDOWS\SYSTEM\MSNET32.DLL
+ 7FA70000 06/08/2000 17:00:00 C:\WINDOWS\SYSTEM\MSPWL32.DLL
+ 7FAB0000 06/08/2000 17:00:00 C:\WINDOWS\SYSTEM\RPCRT4.DLL
+ 7FB50000 06/08/2000 17:00:00 C:\WINDOWS\SYSTEM\MSVCRT20.DLL
+ 7FBD0000 06/08/2000 17:00:00 C:\WINDOWS\SYSTEM\SHELL32.DLL
+ 7FE00000 06/08/2000 17:00:00 C:\WINDOWS\SYSTEM\COMDLG32.DLL
+ 7FE40000 06/08/2000 17:00:00 C:\WINDOWS\SYSTEM\WINSPOOL.DRV
+ 7FE50000 06/08/2000 17:00:00 C:\WINDOWS\SYSTEM\OLEDLG.DLL
+ 7FE80000 06/08/2000 17:00:00 C:\WINDOWS\SYSTEM\OLEAUT32.DLL
+ 7FF20000 06/08/2000 17:00:00 C:\WINDOWS\SYSTEM\OLE32.DLL
+ BFE00000 06/08/2000 17:00:00 C:\WINDOWS\SYSTEM\IMM32.DLL
+ BFE50000 06/08/2000 17:00:00 C:\WINDOWS\SYSTEM\VERSION.DLL
+ BFE60000 06/08/2000 17:00:00 C:\WINDOWS\SYSTEM\ADVAPI32.DLL
+ BFE80000 06/08/2000 17:00:00 C:\WINDOWS\SYSTEM\COMCTL32.DLL
+ BFF10000 06/08/2000 17:00:00 C:\WINDOWS\SYSTEM\GDI32.DLL
+ BFF40000 06/08/2000 17:00:00 C:\WINDOWS\SYSTEM\USER32.DLL
+ BFF60000 06/08/2000 17:00:00 C:\WINDOWS\SYSTEM\KERNEL32.DLL
+==========================================

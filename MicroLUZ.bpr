@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.05.03"/>
+    <PROJECT value="MicroLUZ.exe"/>
+    <OBJFILES value="obj\MicroLUZ.obj obj\Algebra.obj obj\Trigonom.obj obj\AstrClas.obj 
+      obj\MainWind.obj obj\AngValTs.obj obj\MiddTime.obj obj\VectAlg.obj 
+      obj\SolarCollector.obj obj\CoordSys.obj obj\Shapes.obj obj\FormCanv.obj 
+      obj\CyliRefl.obj"/>
+    <RESFILES value="MicroLUZ.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) source\MainWind.dfm source\AngValTs.dfm source\MiddTime.dfm 
+      source\VectAlg.dfm source\CyliRefl.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="bcbsmp50.lib"/>
+    <SPARELIBS value="vcl50.lib bcbsmp50.lib VCLX50.lib"/>
+    <PACKAGES value="vcl50.bpi vclx50.bpi vcljpg50.bpi vclmid50.bpi vcldb50.bpi vclbde50.bpi"/>
+    <PATHCPP value=".;source"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="NO_STRICT;_VIS_NOLIB;_RTLDLL;USEPACKAGES"/>
+    <MAINSOURCE value="MicroLUZ.cpp"/>
+    <INCLUDEPATH value="JPG;..\..;&quot;C:\Program Files\Borland\CBuilder5\Bin&quot;;&quot;C:\Program Files\Borland\CBuilder5\Projects\&quot;;source;$(BCB)\include;$(BCB)\include\vcl;include"/>
+    <LIBPATH value="JPG;..\..;&quot;C:\Program Files\Borland\CBuilder5\Bin&quot;;&quot;C:\Program Files\Borland\CBuilder5\Projects\&quot;;$(BCB)\lib\obj;$(BCB)\lib;obj;source;include"/>
+    <WARNINGS value="-w-par -w-8027 -w-8026"/>
+    <WARNOPTSTR value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-IJPG -I..\.. -I&quot;C:\Program Files\Borland\CBuilder5\Bin&quot; 
+      -I&quot;C:\Program Files\Borland\CBuilder5\Projects\.&quot; -Isource 
+      -I$(BCB)\include -I$(BCB)\include\vcl -Iinclude -src_suffix cpp -D_DEBUG -boa"/>
+    <CFLAG1 value="-Od -H=c:\PROGRA~1\BORLAND\CBUILD~1\lib\vcl50.csm -Hc -Q -w -Vx -Ve -xf 
+      -xp -fp -X- -r- -a8 -5 -b- -k -y -v -vi- -c -tW -tWM"/>
+    <PFLAGS value="-N2obj -N0obj -$YD -$W -$O- -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zi /la /z /c"/>
+    <LFLAGS value="-Iobj -D&quot;&quot; -c- -Hc:0x10000 -S:0x500000 -aa -Tpe -x -Gn -w -v"/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+  </LINKER>
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1049
+CodePage=1251
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[Excluded Packages]
+$(BCB)\Bin\DBWEBXPRT.BPL=Borland Web Wizard Package
+
+[HistoryLists\hlIncludePath]
+Count=12
+Item0=C:\Program Files\Borland\CBuilder5\Projects\;source;$(BCB)\include;$(BCB)\include\vcl;include
+Item1=source
+Item2=source;C:\MicroLUZ\source
+Item3=source;
+Item4=C:\Program Files\Borland\CBuilder5\Projects\;source;$(BCB)\include;$(BCB)\include\vcl;include;C:\MicroLUZ\source
+Item5=C:\Program Files\Borland\CBuilder5\Projects;source;$(BCB)\include;$(BCB)\include\vcl;include
+Item6=$(BCB)\include;$(BCB)\include\vcl;C:\Ideen\MicroLUZ\include
+Item7=C:\Program Files\Borland\CBuilder4\Projects\;source;$(BCB)\include;$(BCB)\include\vcl
+Item8=..\..\Program Files\Borland\CBuilder4\Projects;source;$(BCB)\include;$(BCB)\include\vcl
+Item9=$(BCB)\include;$(BCB)\include\vcl;..\..\..\..\Ideen\MicroLUZ\source
+Item10=$(BCB)\include;$(BCB)\include\vcl;C:\Ideen\MicroLUZ\source
+Item11=$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=12
+Item0=C:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\lib\obj;$(BCB)\lib;obj;source;include
+Item1=source
+Item2=source;
+Item3=C:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\lib\obj;$(BCB)\lib;obj;source;C:\MicroLUZ\include
+Item4=C:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\lib\obj;$(BCB)\lib;obj;source
+Item5=C:\Program Files\Borland\CBuilder5\Projects;$(BCB)\lib\obj;$(BCB)\lib;obj;source
+Item6=$(BCB)\lib\obj;$(BCB)\lib;obj;C:\Ideen\MicroLUZ\source
+Item7=C:\Program Files\Borland\CBuilder4\Projects\;source;$(BCB)\lib\obj;$(BCB)\lib;obj
+Item8=..\..\Program Files\Borland\CBuilder4\Projects;source;$(BCB)\lib\obj;$(BCB)\lib;obj
+Item9=$(BCB)\lib\obj;$(BCB)\lib;..\..\..\..\Ideen\MicroLUZ\obj
+Item10=$(BCB)\lib\obj;$(BCB)\lib;C:\Ideen\MicroLUZ\obj
+Item11=$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=3
+Item0=C:\MicroLUZ\source
+Item1=$(BCB)\source\vcl;C:\Ideen\MicroLUZ\source;C:\Ideen\MicroLUZ\include
+Item2=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[HistoryLists\hlIntOutputDir]
+Count=3
+Item0=obj
+Item1=C:\MicroLUZ\obj
+Item2=C:\Ideen\MicroLUZ\obj
+
+[HistoryLists\hlFinalOutputDir]
+Count=4
+Item0=C:\MicroLUZ
+Item1=..\..\..\..\Ideen\MicroLUZ\bin\
+Item2=..\..\..\..\Ideen\MicroLUZ\bin
+Item3=source\bin\
+
+[Debugging]
+DebugSourceDirs=C:\MicroLUZ\source
+
+[Parameters]
+RunParams=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=1
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+
+  <FILES>
+    <FILE type="override" value="source\Algebra.cpp" translator="Auto">
+    </FILE>
+    <FILE type="override" value="source\Trigonom.cpp" translator="Auto">
+    </FILE>
+  </FILES>
+</PROJECT>
